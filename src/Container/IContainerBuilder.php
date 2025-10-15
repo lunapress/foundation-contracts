@@ -14,4 +14,5 @@ interface IContainerBuilder
     public function enableCache(string $path): void;
     public function disableCache(): void;
     public function isCacheEnabled(): bool;
+    public function mergeRuntime(array $definitions): ContainerInterface;
 }
