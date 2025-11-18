@@ -7,7 +7,7 @@ use LunaPress\FoundationContracts\PackageMeta\IPackageMeta;
 
 defined('ABSPATH') || exit;
 
-interface IServiceIPackageMeta extends IPackageMeta
+interface IServicePackageMeta extends IPackageMeta
 {
     public function getDiPath(): ?string;
 }

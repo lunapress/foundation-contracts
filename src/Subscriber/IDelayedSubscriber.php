@@ -5,7 +5,7 @@ namespace LunaPress\FoundationContracts\Subscriber;
 
 defined('ABSPATH') || exit;
 
-interface IDelayedISubscriber extends ISubscriber
+interface IDelayedSubscriber extends ISubscriber
 {
     public static function afterHook(): string;
 

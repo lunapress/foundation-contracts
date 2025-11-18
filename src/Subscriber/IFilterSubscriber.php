@@ -5,6 +5,6 @@ namespace LunaPress\FoundationContracts\Subscriber;
 
 defined('ABSPATH') || exit;
 
-interface IActionISubscriber extends ISubscriber
+interface IFilterSubscriber extends ISubscriber
 {
 }
