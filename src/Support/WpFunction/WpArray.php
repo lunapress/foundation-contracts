@@ -5,7 +5,7 @@ namespace LunaPress\FoundationContracts\Support\WpFunction;
 
 defined('ABSPATH') || exit;
 
-enum WpArgState
+enum WpArray
 {
-    case Default;
+    case Empty;
 }
