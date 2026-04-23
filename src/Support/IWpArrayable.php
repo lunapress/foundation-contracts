@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace LunaPress\FoundationContracts\Support;
 
-interface IWPArrayable
+interface IWpArrayable
 {
     /**
      * @return array<string, mixed>
      */
-    public function toWPArray(): array;
+    public function toWpArray(): array;
 }
