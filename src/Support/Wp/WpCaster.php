@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace LunaPress\FoundationContracts\Support\Wp;
 
+use BackedEnum;
+
 interface WpCaster
 {
     /**
@@ -17,4 +19,6 @@ interface WpCaster
      * @return array<mixed>
      */
     public function list(array $list, ?callable $argumentMapper = null): array;
+
+    public function asString(string|BackedEnum $value): string;
 }
