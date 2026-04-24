@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace LunaPress\FoundationContracts\Support\WpFunction;
+namespace LunaPress\FoundationContracts\Support\Wp;
 
 /**
  * Marker for unpassed (undefined) DTO properties.
